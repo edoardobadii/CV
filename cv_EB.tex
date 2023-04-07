@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{hyperref}
+\usepackage{datetime}
+
+\newdateformat{monthyeardate}{%
+  \monthname[\THEMONTH] \THEYEAR}
+
+\setlength{\parindent}{0em}
+\setlength{\parskip}{2em}
+
+
+
+%-----------------------------------------------------------
+%People's websites:
+\newcommand{\LukasMergele}{\href{https://sites.google.com/view/lmergele/home}{Lukas Mergele}}
+\newcommand{\LarissaZierow}{\href{https://sites.google.com/view/larissa-zierow/home}{Larissa Zierow}}
+\newcommand{\TinoBerger}{\href{https://sites.google.com/site/drtinoberger}{Tino Berger}}
+\newcommand{\JamesMorley}{\href{https://sites.google.com/site/jamescmorley/}{James Morley}}
+\newcommand{\BenjaminWong}{\href{https://sites.google.com/site/benjaminwongshijie/home}{Benjamin Wong}}
+
+
+
+%-----------------------------------------------------------
+\usepackage[cm]{fullpage}
+%\usepackage{shading}
+%\textheight=9.0in
+\pagestyle{empty}
+%\raggedbottom
+%\raggedright
+\renewcommand{\arraystretch}{1.3}
+
+
+\begin{document}
+
+{\centering \huge{Edoardo Badii} \\ \rule[8pt]{\textwidth}{0.8pt}} \\
+\begin{tabularx}{\linewidth}{X r}
+Department of Economics  & \href{mailto:edoardo.badii@warwick.ac.uk}{edoardo.badii@warwick.ac.uk} \\
+University of Warwick    %& \href{https://sites.google.com/view/pdavidboll}{www.sites.google.com/view/pdavidboll} \\
+Leamington CV32 5FG		 & Citizenship: Italian \\
+West Midlands 		     &  \\
+United Kingdom			 & This version: \monthyeardate\today
+\end{tabularx}
+
+\textbf{EDUCATION} \\ \rule[7pt]{\textwidth}{0.8pt}
+\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
+& \textbf{Master of Research (MRes) leading to PhD in Economics} 				& \textbf{2021 -- 2023} \\
+& Department of Economics, University of Warwick, Coventry, UK   				& (Expected) \\%[1.5em]
+\\
+& \textbf{Master of Science (MSc) in Economics} 								& \textbf{2018 -- 2019} \\
+& Department of Economics, University of Warwick, England		& Distinction \\%[1.5em]
+\\
+& \textbf{Graduate Diploma in Quantitative Economics} 								& \textbf{2017 -- 2018} \\
+& Department of Economics, Birkbeck College, UK							& Distinction \\%[1.5em]
+\\
+& \textbf{Bachelor of Science (BSc) in Management and Marketing} 								& \textbf{2014 -- 2017} \\
+& Department of Economics and Management, University of Bologna, Italy							& 110 cum laude \\%[1.5em]
+\end{tabularx}
+
+
+\textbf{RESEARCH} \\ \rule[7pt]{\textwidth}{0.8pt}
+\begin{tabularx}{\linewidth}{p{1em} X p{1em}}
+& \textbf{Nuts and bolts of cohesion policy: the effect of natural disasters on EU funds inflow.} MSc thesis under the supervision of Professor Thiemo Fetzer. & \\
+\end{tabularx}
+
+\textbf{RECENT WORK EXPERIENCE} \\ \rule[7pt]{\textwidth}{0.8pt}
+\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
+& \textbf{Economic Analyst} 											& \textbf{2019 -- 2021} \\
+& Frontier Economics, London, UK \\
+\end{tabularx}
+
+\textbf{SCHOLARSHIPS AND AWARDS} \\ \rule[7pt]{\textwidth}{0.8pt}
+\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
+& \textbf{Department of Economics, University of Warwick} 						& \textbf{2021 -- present} \\
+& Departmental scholarship for MRes students\\
+									
+\end{tabularx}
+
+
+\textbf{LANGUAGES AND TECHNICAL SKILLS} \\ \rule[7pt]{\textwidth}{0.8pt}
+\begin{tabularx}{\linewidth}{p{1em} l p{1em} X}
+& \textbf{Languages} & & English (fluent), Italian (native), German (basic) \\[0.7em]
+& \textbf{Software}  & & Stata, R, VBA,  \LaTeX
+\end{tabularx}
+
+\end{document}
