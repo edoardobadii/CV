@@ -11,12 +11,3 @@
 */.cb
 */.cb2
 */.lb
-
-## Intermediate documents:
-*.dvi
-*.xdv
-*-converted-to.*
-# these rules might exclude image files for figures etc.
-# *.ps
-# *.eps
-# *.pdf
