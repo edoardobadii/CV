@@ -1,4 +1,4 @@
-## Core latex/pdflatex auxiliary files:
+## Ignore all core latex/pdflatex auxiliary files:
 */.aux
 */.lof
 */.log
