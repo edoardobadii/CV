@@ -1,3 +1,3 @@
 # CV
 
-This is my academic CV template conencted to my university personal page 
+This is my academic CV template connected to my university personal page 
