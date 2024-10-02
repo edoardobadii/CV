@@ -1,6 +1,6 @@
 # Fdb version 4
-["pdflatex"] 1704971840 "/Users/edoardobadii/Documents/GitHub/CV/cv_EB.tex" "cv_EB.pdf" "cv_EB" 1704971840 0
-  "/Users/edoardobadii/Documents/GitHub/CV/cv_EB.tex" 1704971840 3150 cb41e998cf891eb425597a35bce561da ""
+["pdflatex"] 1727878611 "/Users/edoardobadii/Documents/GitHub/CV/cv_EB.tex" "cv_EB.pdf" "cv_EB" 1727878611 0
+  "/Users/edoardobadii/Documents/GitHub/CV/cv_EB.tex" 1727878610 3615 0aace884c8913429922911a548ecc2a6 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmbx12.tfm" 1136768653 1324 c910af8c371558dc20f2d7822f66fe64 ""
   "/usr/local/texlive/2023/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
@@ -76,9 +76,9 @@
   "/usr/local/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1687451092 4623355 b8cad38412faebe1ce5b780a45db67bd ""
   "/usr/local/texlive/2023/texmf-var/web2c/pdftex/pdflatex.fmt" 1687451080 7883454 96ab4673260c3f2a80bf52f457b14b56 ""
   "/usr/local/texlive/2023/texmf.cnf" 1678822455 577 1b2b1af17af2508fb20dd85783af4050 ""
-  "cv_EB.aux" 1704971840 634 dae04709ba649dfc3b6dcbd4618c9067 "pdflatex"
-  "cv_EB.out" 1704971840 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "cv_EB.tex" 1704971840 3150 cb41e998cf891eb425597a35bce561da ""
+  "cv_EB.aux" 1727878611 634 dae04709ba649dfc3b6dcbd4618c9067 "pdflatex"
+  "cv_EB.out" 1727878611 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "cv_EB.tex" 1727878610 3615 0aace884c8913429922911a548ecc2a6 ""
   (generated)
   "cv_EB.aux"
   "cv_EB.log"
