@@ -1,108 +1,208 @@
-\documentclass[a4paper,12pt]{article}
-\usepackage[utf8]{inputenc}
-\usepackage[english]{babel}
-\usepackage{tabularx}
-\usepackage{hyperref}
-\usepackage{datetime}
+\documentclass{cv_EB}
 
-\newdateformat{monthyeardate}{%
-  \monthname[\THEMONTH] \THEYEAR}
+\usepackage[left=0.75in,top=0.6in,right=0.75in,bottom=0.6in]{geometry}
 
-\setlength{\parindent}{0em}
-\setlength{\parskip}{2em}
-%-----------------------------------------------------------
+\usepackage{xcolor}
+\newcommand{\updateinfo}[1][\today]{\par\vfill\hfill{\scriptsize\color{gray}Last updated on #1}}
 
 
+\name{Edoardo Badii}
+\address{Department of Economics, University of Warwick, Coventry CV4 7AL, United Kingdom  }
+\address{Email: \href{mailto:edoardo.badii@warwick.ac.uk}{edoardo.badii@warwick.ac.uk} \\ Webpage: \href{https://edoardobadii.github.io}{https://edoardobadii.github.io}}
+ 
 
+\def\nameskip{\bigskip}
+\def\sectionskip{\medskip}
 
-%-----------------------------------------------------------
-\usepackage[cm]{fullpage}
-%\usepackage{shading}
-%\textheight=9.0in
-\pagestyle{empty}
-%\raggedbottom
-%\raggedright
-\renewcommand{\arraystretch}{1.3}
-
+\usepackage{enumitem}
+\usepackage{changepage}
 
 \begin{document}
 
-{\centering \huge{Edoardo Badii} \\ \rule[8pt]{\textwidth}{0.8pt}} \\
-\begin{tabularx}{\linewidth}{X r}
-Department of Economics  & \href{mailto:edoardo.badii@warwick.ac.uk}{edoardo.badii@warwick.ac.uk} \\
-University of Warwick	 & Citizenship: Italian \& Swiss \\
-Coventry, CV4 7AL 		     &  \\
-United Kingdom			 & This version: \monthyeardate\today
-\end{tabularx}
-
-%{\centering \huge{Edoardo Badii} \\} 
-%\vspace{0.2in}
-%{\centering 
-%Email:  \href{mailto:edoardo.badii@warwick.ac.uk}{edoardo.badii@warwick.ac.uk}  \\
-%Department of Economics, University of Warwick, Coventry CV4 7AL, United Kingdom \\}
-%\vspace{0.2in}
-
-\textbf{EDUCATION} \\ \rule[7pt]{\textwidth}{0.8pt}
-\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
-& \textbf{University of Warwick} \textit{PhD in Economics}						& 2023 -- present \\
-& \qquad \textbf{Advisors}: Mirko Draca, Amrita Kulka 							& \\
-& \textbf{University of Warwick} \textit{MRes in Economics} (distinction)				& 2021 -- 2023 \\
-& \textbf{University of Warwick} \textit{MSc in Economics} (distinction) 				& 2018 -- 2019 \\
-& \textbf{Birkbeck College (UoL)} \textit{GDip  in Economics} (distinction)			& 2017 -- 2018 \\
-& \textbf{University of Bologna} \textit{BSc in Managment \& Marketing} (cum laude)	& 2014 -- 2017 \\
-\end{tabularx}
-
-\textbf{WORK EXPERIENCE} \\ \rule[7pt]{\textwidth}{0.8pt}
-\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
-& Economic Analyst,  Frontier Economics (London)									& 2019 -- 2021 \\
-\end{tabularx}
-
-\textbf{RESEARCH IN PROGRESS} \\ \rule[7pt]{\textwidth}{0.8pt}
-\begin{tabularx}{\linewidth}{p{1em} X p{1em}}
-& “Bargaining for Regeneration: Evidence from Tower-Block
-Demolitions Across England and Wales" & \\
-& “Is Nimbyism Warranted?" with Nikhil Datta and Amrita Kulka & \\
-& “Can Markets Provide (Affordable) Housing? & \\
-\end{tabularx}
-
-\textbf{TEACHING EXPERIENCE} \\ \rule[7pt]{\textwidth}{0.8pt}
-\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
-& TA for EC203, Applied Econometrics	(Undergraduate)								& 2023 \\
-& TA for EC204, Economics 2 (Undergraduate)         									& 2022 \\
-\end{tabularx}
-
-\textbf{OTHER EXPERIENCE} \\ \rule[7pt]{\textwidth}{0.8pt}
-\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
-& RA for Amrita Kulka (University of Warwick)									    & 2022 - 2023 \\
-& RA for Marta Santamaria (University of Warwick)									& 2023 - 2024 \\
-& RA for Clement Imbert (Sciences Po)											        & 2024 \\
-\end{tabularx}
-
-\textbf{SCHOLARSHIPS AND AWARDS} \\ \rule[7pt]{\textwidth}{0.8pt}
-\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
-& Warwick Economics MRes/PhD Departmental Scholarship							& 2021-2027 \\
-& Teaching excellence award (EC203)											& 2023\\
-
-\end{tabularx}
-
-\textbf{COURSES} \\ \rule[7pt]{\textwidth}{0.8pt}
-\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
-& Urban Economics Association Summer School (Geneva)					& 2024 \\
-& Quantitative Spatial Economics Within and Across Cities (CEMFI)											& 2024 \\
-											
-\end{tabularx}
-
-\textbf{POLICY WORK} \\ \rule[7pt]{\textwidth}{0.8pt}
-\begin{tabularx}{\linewidth}{p{1em} X >{\raggedleft\arraybackslash}p{8em}}
-& “Five Facts on the UK Planning System” with Johannes Brinkmann, Nikhil Datta and Amrita Kulka. CAGE report 2024					&  \\
-& “The Long Road to Housing” with Johannes Brinkmann, Nikhil Datta and Amrita Kulka. CAGE Advantage Magazine (17), Autumn 2024.	&  \\											
-\end{tabularx}
 
 
-\textbf{LANGUAGES AND TECHNICAL SKILLS} \\ \rule[7pt]{\textwidth}{0.8pt}
-\begin{tabularx}{\linewidth}{p{1em} l p{1em} X}
-& \textbf{Languages} & & English (fluent), Italian (native), German (basic) \\[0.7em]
-& \textbf{Software}  & & R, Stata, Python
-\end{tabularx}
+%---	Research Interests
+
+\begin{rSection}{Research Interests}
+	\smallskip
+	Urban Economics ; Public Economics
+\end{rSection}
+
+
+
+%---	Employment
+%
+%\begin{rSection}{Employment}
+%\smallskip
+%{\bf SOFI, Stockholm University} \ {\em Assistant Professor} \ {} \hfill {September 2023 - present}
+%
+%
+%\end{rSection}
+
+
+
+%---	Education
+
+\begin{rSection}{Education}
+\smallskip
+{\bf University of Warwick} \ {\em PhD Economics} \\ {Supervisors: Amrita Kulka, Mirko Draca}  \hfill {2023 - present}
+
+{\bf University of Warwick} \ {\em MRes Economics} \ {(distinction)} \hfill {\em 2021 - 2023} 
+
+{\bf University of Warwick} \ {\em MSc Economics} \ {(distinction)} \hfill {\em 2018 - 2019} 
+
+{\bf Birkbeck College (UoL)} \ {\em GDip in Economics} \ {(distinction)} \hfill {\em 2017 - 2018} 
+
+{\bf University of Bologna} \ {\em BSc Managment and Marketing}\ {(cum laude)} \hfill {\em 2014 - 2017} 
+
+\end{rSection}
+
+%---	Working Papers 
+
+\begin{rSection}{Research in Progress}
+\smallskip
+
+\begin{itemize}[leftmargin=0em]
+	
+	\item \href{}{Policy-Induced Gentrification: Evidence from Tower-Block Demolitions Across England and Wales} \hspace{0.5em}
+	\\ {\scriptsize Presented at: CAGE Ames, UCL-Sciences Po Junior Research Day}
+
+\medskip
+		
+\item \href{}{Is Nimbyism Warranted?}
+\\ {\small joint with Nikhil Datta and Amrita Kulka}
+ 
+\medskip
+		
+\item \href{}{Can markets produce (affordable) Housing?} 
+%\\ {\small joint with Mirko Draca, Emma Duchini, Roland Rathelot, Arthur Turrell}
+%\\ {\small CAGE working paper no. 616 }
+
+
+\end{itemize}
+
+\end{rSection}
+
+
+%---	Policy Work
+
+\begin{rSection}{Policy Work}
+\smallskip	
+\begin{itemize}[leftmargin=0em]
+\item {\small \href{https://warwick.ac.uk/fac/soc/economics/research/centres/cage/publications/uow_cage_mag_issue_17_digital_spread.pdf}{The Long Road to Housing} }
+\\ {\small joint with Johannes Brinkmann, Nikhil Datta and Amrita Kulka}
+\\ {\small CAGE Advantage Magazine - Autumn 2024}
+
+\item {\small \href{https://warwick.ac.uk/fac/soc/economics/research/centres/cage/manage/news/five_facts_on_the_uk_planning_system_-_background_brief.pdf}{Five Facts on the UK Planning System}}
+\\ {\small joint with Johannes Brinkmann, Nikhil Datta and Amrita Kulka}
+\\ {\small CAGE Policy Brief, September 2024}
+				
+\end{itemize}
+\end{rSection}
+
+ %---
+ \begin{rSection}{Teaching}
+%\smallskip	
+	{\bf University of Warwick}  \\
+	Teaching Assistant for EC203 Applied Econometrics (BSc) \hfill {\em Autumn 2023} 
+	
+	\smallskip 
+	
+	{\bf University of Warwick}  \\
+	Teaching Assistant for EC202 Economics 2 (BSc) \hfill {\em Autumns 2022} 
+	
+\end{rSection}
+ %---
+ 
+
+\newpage
+ %---
+\begin{rSection}{Grants and awards}
+%\smallskip	
+\begin{itemize}[leftmargin=*]
+\item Warwick Economics MRes/PhD Departmental Scholarship 2021-2027
+\item Teaching Excellence Award (EC203)
+
+\end{itemize}
+\end{rSection}
+ %---
+
+
+ %---
+\begin{rSection}{Departmental duties}
+%\smallskip	
+    \begin{rSubsection}{University of Warwick: Economics PhD Conference}{2022-2025}{Reviewer}{}
+    \end{rSubsection}
+    \vspace{-1em}
+    \begin{rSubsection}{Economics PhD Applicant Mentoring Programme (AMP)}{2023}{Mentor}{}
+    \end{rSubsection}
+\end{rSection}
+%---
+
+
+
+ %---
+%\begin{rSection}{Refereeing}
+%\smallskip	
+%\begin{itemize}[leftmargin=*]
+%\item Canadian Journal of Economics, European Economic Review Plus, Journal of Economic Behavior and Organization, Labour Economics, Journal of Labor Economics.
+%\end{itemize}
+%\end{rSection}
+ %---
+ 
+  %---
+%\begin{rSection}{Conference and Seminar Presentations}
+%\smallskip	
+%2024: AlpPop Conference, La Thuile; IFAU, Uppsala; Brown Bag Seminar, Department of Economics, Stockholm University; Mentalism Conference, Bocconi University, Milan; BSE Summer Forum - Structural Microeconometrics, Barcelona; SED 2024, Barcelona; 2nd Badolato Labour \& Organization Workshop; EEA-ESEM 2024, Rotterdam; 39th AIEL Conference, Naples. 
+
+%2023: NHH, Bergen (online); CREST-ENSAI, Rennes; SOFI Stockholm University; Adam Smith Business School, University of Glasgow; USI Lugano (online); Toulouse School of Economics; CSEF, University of Naples Federico II; University of Oslo (online); IESE Business School, Barcelona; ROCKWOOL Foundation Berlin (online); SITE, Stockholm School of Economics; Axa Research Lab on Gender Equality, Bocconi University, Milan; 21st “Brucchi Luchino” Labor Economics workshop, Cagliari. 
+
+%2022: CREST-ENSAE, Palaiseau (Firms and Markets Seminar); Royal Economic Society Annual Conference (online); 23rd IZA Summer School in Labor Economics, Buch am Ammersee; 10th Warwick Economics PhD Conference, Coventry.
+%\end{rSection}
+%---
+
+ %--- 
+  \begin{rSection}{Other Experience}
+ \smallskip
+{\bf Frontier Economics, London} \ {} \\{\em Economic Analyst}  \hfill {2019 - 2021}
+
+\smallskip
+
+{\bf University of Warwick} \\
+{\em Research assistant for Marta Santamaria}  \hfill {2023} \\
+{\em Research assistant for Clement Imbert}  \hfill {2024} \\
+
+  \end{rSection}
+
+
+ %---
+  \begin{rSection}{Skills}
+    \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+      Programming/Statistics   & R, Stata, Python \\
+      Languages & Italian (native), English (fluent), [Swiss-]German (intermediate)
+     \end{tabular}
+  \end{rSection}
+ %--- 
+ 
+ 
+%\newpage
+%--- Academic References
+
+%\begin{rSection}{Academic References}
+%\smallskip
+%\itab{\hspace{2em}Prof. \textbf{Roland Rathelot}}                                                                     \tab{}  \tab{\hspace{-3.5em}Prof. \textbf{Manuel Bagues}} \\
+%\itab{\hspace{2em}CREST-ENSAE}                                                                                          \tab{}  \tab{\hspace{-3.5em}University of Warwick} \\
+%\itab{\hspace{2em}Email: \href{mailto:roland.rathelot@ensae.fr}{roland.rathelot@ensae.fr} }  \tab{}  \tab{\hspace{-3.5em}Email: \href{mailto:manuel.bagues@warwick.ac.uk}{manuel.bagues@warwick.ac.uk} } \\
+%\\
+%\itab{\hspace{2em}Prof. \textbf{Mirko Draca}}                                                                         \tab{} \tab{\hspace{-3.5em}Dr. \textbf{Christine Braun}}  \\ 
+%\itab{\hspace{2em}University of Warwick}                                                                                          \tab{}  \tab{\hspace{-3.5em}University of Warwick} \\
+%\itab{\hspace{2em}Email: \href{mailto:m.draca@warwick.ac.uk}{m.draca@warwick.ac.uk} }  \tab{} \tab{\hspace{-3.5em}Email: \href{mailto:christine.braun@warwick.ac.uk}{christine.braun@warwick.ac.uk} } 
+%\end{rSection}
+ 
+  
+\updateinfo
+
+  
+
 
 \end{document}
